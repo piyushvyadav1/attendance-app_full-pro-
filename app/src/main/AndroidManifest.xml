@@ -1,0 +1,22 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.piyush.attendance">
+
+<application
+android:label="Smart Attendance Pro"
+android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+<activity android:name=".ReportActivity"/>
+<activity android:name=".TodayAttendanceActivity"/>
+<activity android:name=".CalendarActivity"/>
+<activity android:name=".IAPlannerActivity"/>
+
+<activity android:name=".MainActivity">
+<intent-filter>
+<action android:name="android.intent.action.MAIN"/>
+<category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+</activity>
+
+</application>
+</manifest>

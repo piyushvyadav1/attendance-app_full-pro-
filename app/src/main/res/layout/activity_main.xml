@@ -1,0 +1,38 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:padding="24dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+android:text="Smart Attendance Pro"
+android:textSize="24sp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+
+<Button
+android:id="@+id/btnToday"
+android:text="Today's Attendance"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+<Button
+android:id="@+id/btnReport"
+android:text="Attendance Report"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+<Button
+android:id="@+id/btnCalendar"
+android:text="Calendar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+<Button
+android:id="@+id/btnIA"
+android:text="IA Planner"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+</LinearLayout>
